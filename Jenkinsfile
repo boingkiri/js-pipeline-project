@@ -20,7 +20,7 @@ pipeline {
 			steps {
 				echo 'deploying the applicaiton...'
 				echo "deploying with ${ADMIN_CREDENTIALS}"
-				bat "printf ${ADMIN_CREDENTIALS}"
+				bat "echo ${ADMIN_CREDENTIALS}"
 			}
 		}
 	}
